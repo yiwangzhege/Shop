@@ -1,0 +1,24 @@
+.onefirst{width: 196px;height: 363px; border: 2px solid #1E7BD9; border-top: 0; float: left; margin-right: 10px;}
+.subdl dl{border-bottom:1px dashed #666; padding: 12px;}
+.subdl{position: relative;}
+.subdl dl dt a{color: #1D7AD9; font-family: "微软雅黑"; font-size: 16px; background: url(../img/ico4.png) no-repeat right center; display: block; }
+.subdl dl dd a{display: inline-block; margin-right: 10px; line-height: 10px;margin-top: 10px;}
+.subdl:last-child dl{border-bottom: 0;}
+.subdl:hover{background-color: #1D7AD9;}
+.subdl:hover dl dt a{color: #fff; background-image: url(../img/ico5.png);}
+.subdl:hover dl dd a{color:#fff}
+.subnav{display: none; position: absolute; left: 196px; top: 0; border: 2px solid #1D7AD9; padding: 30px; background-color: #fff; z-index:999 }
+.subdl:hover .subnav{display: block;}
+
+.banner{margin-top: 10px;overflow: hidden; height: 353px; width: 755px; position: relative;}
+.banspan{position: absolute; right: 20px; bottom: 20px;}
+.banspan span{width: 16px; height: 16px; background-color: #000; color: #fff;display: inline-block; text-align: center; border-radius: 100%; cursor: pointer;}
+.banspan span:hover{background-color: #FF7700;} 
+
+
+.two{border: 1px solid #DEDEDE; margin-top: 30px; border-top: 2px solid #F5619C; }
+.twoleft{float: left; width: 250px; height: 485px; position: relative; }
+.addimg{width: 250px; height: 485px; overflow: hidden;}
+.addspan{position: absolute; left: 65px; bottom: 50px;}
+.addspan span{width: 30px; height: 4px; background-color: #000;display: inline-block; margin:0 5px; cursor: pointer;}
+.addspan span:first-child , .addspan span:hover{background-color: #FF7700;}
