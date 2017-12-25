@@ -10,12 +10,14 @@
 .subnav{display: none; position: absolute; left: 196px; top: 0; border: 2px solid #1D7AD9; padding: 30px; background-color: #fff; z-index:999 }
 .subdl:hover .subnav{display: block;}
 
-.banner{margin-top: 10px;overflow: hidden; height: 353px; width: 755px; position: relative;}
+.banner{margin-top: 10px;overflow: hidden; height: 353px; width: 755px; position: relative;float: left;}
 .banspan{position: absolute; right: 20px; bottom: 20px;}
 .banspan span{width: 16px; height: 16px; background-color: #000; color: #fff;display: inline-block; text-align: center; border-radius: 100%; cursor: pointer;}
 .banspan span:hover{background-color: #FF7700;} 
-
-
+.baningg{margin-top:10px;height: 353px;width:212px ;float: right;}
+.introtit{background: url(../img/21@3x.png) no-repeat left 10px;padding-left: 30px;padding-top:18px;}
+.introtit span{font-size: 20px;color: #666666;}
+.intro2 img{width: 210px;float: right;margin-top: 5px;}
 .two{border: 1px solid #DEDEDE; margin-top: 30px; border-top: 2px solid #F5619C; }
 .twoleft{float: left; width: 250px; height: 485px; position: relative; }
 .addimg{width: 250px; height: 485px; overflow: hidden;}

@@ -8,6 +8,9 @@ a:hover{color: #FF7700;}
 .topcon{width: 1190px; margin:0 auto;}
 .topleft{float: left; width: 215px;}
 .topleft span{float: left; width: 55px; line-height: 40px;}
+.topright{float: right;}
+.topright span{line-height: 40px;margin-right: 10px;}
+.topright span img{margin-right: 5px;}
 .xinlang{float: left; width: 16px; height: 16px; margin-top: 12px; margin-right: 10px;}
 .weibo{float: left; width: 16px; height: 16px; margin-top: 12px; margin-right: 10px;}
 .weixin{float: left; width: 16px; height: 16px; margin-top: 12px;}
