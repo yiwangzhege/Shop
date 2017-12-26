@@ -24,3 +24,8 @@
 .addspan{position: absolute; left: 65px; bottom: 50px;}
 .addspan span{width: 30px; height: 4px; background-color: #000;display: inline-block; margin:0 5px; cursor: pointer;}
 .addspan span:first-child , .addspan span:hover{background-color: #FF7700;}
+.twomid dl{height: 160px;width: 200px;float: left;margin-left: 10px;text-align: center;}
+.twomid dl img{height: 161px;}
+.twomid dd a{color: #666;font-size: 15px;}
+.twomid dd{text-align: center;}
+.twomid{width: 650px; float: left;overflow: hidden;margin-left: 10px;}
