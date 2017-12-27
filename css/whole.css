@@ -8,20 +8,32 @@ a:hover{color: #FF7700;}
 .topcon{width: 1190px; margin:0 auto;}
 .topleft{float: left; width: 215px;}
 .topleft span{float: left; width: 55px; line-height: 40px;}
-.topright{float: right;}
-.topright span{line-height: 40px;margin-right: 10px;}
-.topright span img{margin-right: 5px;}
-.xinlang{float: left; width: 16px; height: 16px; margin-top: 12px; margin-right: 10px;}
-.weibo{float: left; width: 16px; height: 16px; margin-top: 12px; margin-right: 10px;}
-.weixin{float: left; width: 16px; height: 16px; margin-top: 12px;}
+.xinlang{float: left; width: 16px; height: 16px; margin-top: 12px; margin-right: 10px;background: url(../img/ico/whole.png) no-repeat 0px 0px;}
+.weibo{float: left; width: 16px; height: 16px; margin-top: 12px; margin-right: 10px;background: url(../img/ico/whole.png) no-repeat -21px 0px;}
+.weixin{float: left; width: 16px; height: 16px; margin-top: 12px;background: url(../img/ico/whole.png) no-repeat -42px 0px;}
+.topright{float: right;line-height: 40px;}
+.topright a{float: left;margin-left: 10px;}
+.myorder{background: url(../img/ico/whole.png) no-repeat -62px 0;float: left;width: 15px;height: 14px;margin-top: 14px;margin-left: 10px;}
+.mylove{float: left;background: url(../img/ico/whole.png) no-repeat -85px 0;width: 15px;height: 14px;margin-top: 14px;margin-left: 10px;}
+.mykefu{float: left;background: url(../img/ico/whole.png) no-repeat -105px 0;width: 15px;height: 14px;margin-top: 14px;margin-left: 10px;}
+.myphone{float: left;background: url(../img/ico/whole.png) no-repeat -125px 0;width: 15px;height: 14px;margin-top: 14px;margin-left: 10px;}
 
-.add{text-align: center;background-color: #DF2B37;}
+.add a{display:block; background:url(../img/add/topadd.jpg) no-repeat center top; height:70px;}
 
 .content{width: 1190px; margin: 0 auto;}
 .logo{float: left; width: 200px; margin-top: 16px; margin-right: 158px;}
 .search{float: left; width: 500px; margin-top: 30px;}
 .search .searchcon{width: 365px; float: left; height: 38px; padding-left:15px; color: #666; border: 2px solid #FF7700;}
 .search .searchsub{width: 95px;height: 42px; background-color: #FF7700; color: #fff; font-family: "微软雅黑"; font-size: 16px; border: 0;}
+.hot a{float: left;margin-left: 14px;}
+.car{width: 178px;height: 48px;background-color: #1D7AD9;float: right;margin-top: 30px;}
+.carworld{border-right:1px solid #4c9beb ;float: left;display: block;color: #fff;font-size: 18px;
+line-height: 48px;padding-right: 15px;}
+.carnumber{color: #fff; font-size: 18px; line-height: 43px; margin-left: 25px;}
+.car .carimg{background: url(../img/ico/whole.png) no-repeat -183px 0;width: 23px;height: 20px;float: left;margin-top: 13px;margin-left: 20px;margin-right: 10px;}
+.{width: 23px;height: 20px;background-color: red;}
+
+{color: #fff;font-size: 18px;line-height: 42px;padding-left: 50px;}*/
 .hot a{display: inline-block; margin-right: 10px; margin-top: 10px;}
 .hot a:first-child ,.hot a:nth-child(5){color: #FF7700;}
 
