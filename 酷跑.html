@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.game{
+				border: solid 1px red;
+				width: 500px;
+				height: 350px;
+				margin: 50px auto;
+				background-image: url(images/paoku/bg_1.png);
+				background-size:507px 215px;
+				background-repeat: repeat-x;
+				background-position: top;
+				position: relative;
+				-webkit-animation: bg 10s linear infinite;
+			}
+			
+			.bg{
+				width: 500px;
+				height: 231px;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				background-image: url(images/paoku/bg_2.png);
+				background-size:507px 231px;
+				background-repeat: repeat-x;
+				-webkit-animation: bg 2s linear infinite;
+			}
+			
+			.bottom{
+				width: 500px;
+				position: absolute;
+				bottom: 0;
+			}
+			
+			.people{
+				width: 123px;
+				height: 105px;
+				background-image: url(images/paoku/1.png);
+				position: absolute;
+				left: 50%;
+				margin-left:-62px;
+				bottom: 56px;
+				-webkit-animation: people-run 1s linear infinite;
+			}
+			
+			@-webkit-keyframes bg{
+				from{
+					background-position-x: 0px;
+				}
+				to{
+					background-position-x: -507px;
+				}
+			}
+			
+			@-webkit-keyframes people-run{
+				0%{
+					background-image: url(images/paoku/1.png);
+				}
+				10%{
+					background-image: url(images/paoku/2.png);
+				}
+				20%{
+					background-image: url(images/paoku/3.png);
+				}
+				30%{
+					background-image: url(images/paoku/4.png);
+				}
+				40%{
+					background-image: url(images/paoku/5.png);
+				}
+				50%{
+					background-image: url(images/paoku/6.png);
+				}
+				60%{
+					background-image: url(images/paoku/7.png);
+				}
+				70%{
+					background-image: url(images/paoku/8.png);
+				}
+				80%{
+					background-image: url(images/paoku/9.png);
+				}
+				90%{
+					background-image: url(images/paoku/10.png);
+				}
+				100%{
+					background-image: url(images/paoku/1.png);
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="game">
+			<div class="bg"></div>
+			<div class="people">
+				
+			</div>
+			<img class="bottom" src="images/paoku/bg.png">
+		</div>
+	</body>
+</html>
