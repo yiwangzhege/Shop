@@ -54,19 +54,28 @@
 				context.stroke();
 				context.closePath();
 
+				// 文字样式
+				context.font = "50px 黑体";
+				context.textAlign = "center";
+				context.textBaseline = "middle";
 				// 刻度
 				for(var i = 0; i < 60; i++) {
 					var x = 350 * Math.cos(Math.PI / 180 * i * 6);
 					var y = 350 * Math.sin(Math.PI / 180 * i * 6);
 					context.beginPath();
-					if(i % 5 == 0)
-						context.arc(x, y, 8, 0, Math.PI * 2);
+					if(i % 5 == 0){
+						var n = (i/5+3)%12==0?12:(i/5+3)%12;
+						context.fillText(n,x,y);
+					}
 					else
 						context.arc(x, y, 4, 0, Math.PI * 2);
 					context.fillStyle = "black";
 					context.fill();
 					context.closePath();
 				}
+				
+				var now = new Date();
+				context.fillText(now.getFullYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日",0,200)
 			}
 
 			function setTime(h, m, s) {
